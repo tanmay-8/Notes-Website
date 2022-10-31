@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+.multipage-cont{
+    width: 59vw;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.multi-header{
+    padding: 1vh;
+    height: 6vh;
+    background-color: rgb(65, 64, 64);
+}
+.multi-header ul{
+    display: flex;
+    flex-direction: row;
+}
+.multi-header button{
+    color: white;
+    border: 1px solid rgb(253, 252, 252);
+    border-radius: 5px;
+    font-size: 3vh;
+    box-shadow: 0.1vh 0.1vh 0.5vh rgb(88, 88, 88);
+    padding: 0.8vh;
+    margin: 0.1vh 1vh 0.1vh 1vh;
+    background-color: rgb(112, 112, 112);
+}
+
+.page input,textarea {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 1vh;
+  color: white;
+  font-family: 'Roboto Slab', serif;
+  overflow-y: hidden;
+}
+
+.multi_page_title{
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: none;
+    outline: none;
+    border: 1px solid black;
+    font-size: 4vh;
+    padding: 2vh !important;
+    height:8vh !important;
+    width:58vw;
+    margin:2vh 1vh 2vh 1vh;
+}
+
+.page_slider{
+    border-radius: 10px;
+    width: 58vw;
+    margin:0vh 1vh 2vh 2vh;
+    height: 72vh;
+    box-sizing: border-box;
+}
+.page_cont{
+    font-family: 'Roboto Slab', serif;
+    scrollbar-width: none !important;
+    box-sizing: border-box;
+    width: 58vw;
+    margin:0vh 1vh 2vh 1vh;
+    height: 73vh;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.page{
+    width:56vw;
+    height: 71vh;
+    box-sizing: border-box;
+    margin:0;
+    border:1px solid black
+}
+.page p{
+    font-weight: bolder;
+    width:56vw;
+    text-align: center;
+}
+.multi_subtitle{
+    width:55vw;
+    font-size: 3.5vh;
+    height: 5vh;
+    margin-bottom: 0.2vh;
+}
+.multi_desc{
+    resize: none;
+    padding: 1vh;
+    word-spacing: 0.3vw;
+    font-size: 2.5vh;
+    line-height: 4vh;
+}

@@ -1,0 +1,48 @@
+.signinbody{
+    background-image: url("../Images/loginback.png");
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    flex-direction: row;
+    width: 59vw;
+    height:659px;
+    color:black;
+}
+.signinform{
+    background-color: rgb(255, 255, 255,0.8);
+    margin-top:8%;
+    margin-bottom:20%;
+    margin-left:32.5%;
+    margin-right:32.5%;
+    height:60%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(73, 70, 70);
+}
+
+.signinform img{
+    margin-left: 37%;
+    height: 100px;
+    width: 100px;
+}
+.signinform input{
+    font-size: 20px;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    height: 40px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+.signinform label{
+    font-size: 30px;
+}
+.signinsubmit{
+    box-shadow: 5px 5px 5px rgb(73, 70, 70);
+    background-color: rgb(238, 136, 136);
+    cursor: pointer;
+    font-size: 30px;
+    height: 50px;
+    width: 33%;
+}

@@ -1,0 +1,78 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu-cont{
+    height: 100vh;
+    width:16vw !important;
+    background-color: rgb(44, 43, 43);
+    box-shadow: 2px 2px 5px rgb(250, 248, 248);
+}
+
+.menu-list{
+    list-style: none;
+}
+
+.menu-list li{
+    cursor: pointer;
+}
+.menu-list h3{
+    padding: 1vh 1vh 1vh 1vh;
+    padding-left: 20%;
+    font-size: 4vh;
+    box-shadow:1vh 1vh 1vh rgb(36, 35, 35) ;
+}
+
+.user-info{
+    box-shadow: 1vh 1vh 2vh rgb(31, 30, 30);
+    padding: 1vh;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 4vh;
+}
+
+.user-info img{
+    margin: 1vh;
+    height: 6vh;
+    width: 2.7vw;
+}
+.options{
+    list-style: none;
+    width: 80%;
+    margin-left: 20%;
+}
+.options li{
+    height: 8vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 3vh;
+    margin: 1vh 1vh 1vh 1vh;
+}
+.options img{
+    margin: 0vh 2vh 0vh 1vh;
+    height: 4.5vh;
+    width: 2.3vw;
+    filter: invert(100%);
+}
+hr{
+    background: white;
+}
+.setting{
+    position: absolute;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30vh;
+    bottom: 1%;
+    left: 1%;
+}
+.setting img{
+    margin: 1vh 1vh 1vh 1vh;
+    height: 5vh;
+    width: 2.3vw;
+    filter: invert(100%);
+}

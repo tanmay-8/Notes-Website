@@ -1,0 +1,70 @@
+.notes-menu-list{
+    width:26vw;
+    height: 100vh;
+    background-color: rgb(71, 70, 70);
+    padding-right:0.2vw ;
+    padding-left:0.2vw ;
+    overflow: auto;
+    padding-top: 0.5vh;
+}
+.multi-select{
+    width:98%;
+    margin:0% 1% 0% 1%;
+    cursor: pointer;
+}
+.notes-menu-list h2{
+   box-shadow: 1vh 1vh 2vh rgb(46, 46, 46);
+   padding: 1vh;
+}
+
+.notescard{
+    cursor: pointer;
+    box-shadow: 1vh 1vh 5vh rgb(73, 72, 72);
+    margin-top: 0.1vh;
+    padding: 2vh;
+    height: 10vh;
+    width: 92%;
+    background-color: rgb(61, 61, 61);
+}
+.title{
+    height:25% ;
+    font-size: 3vh;
+    align-items: center;
+}
+.title img{
+    height:2.8vh;
+    width:2.8vh;
+    margin-right: 1vh;
+}
+.subtitle{
+    margin-top: 6%;
+    margin-left: 10%;
+    height: 30%;
+    font-size: 2vh;
+    color: rgb(138, 136, 136);
+}
+.notedate{
+    font-size: 2vh;
+    text-align: right;
+    margin: 0 1% 2% 1%;
+}
+
+.hr{
+    width: 95%;
+    height: 0.1px;
+    background-color: rgb(55, 56, 56);
+}
+.searchbar{
+    margin: 1vh 0vh 1vh 0vh;
+    height: 6vh;
+    /* width: 26vw; */
+    /* position: fixed; */
+}
+.searchbar input{
+    font-size: 3vh;
+    padding: 1vh;
+    height: 100%;
+    width: 98%;
+    margin-left: 1%;
+    border-radius: 5px;
+}

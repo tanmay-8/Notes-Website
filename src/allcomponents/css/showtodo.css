@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+.style2{
+    font-family: 'Mukta', sans-serif;
+    width:59vw
+}
+.show-todos-tasks{
+    overflow: auto;
+    margin: 4vh 4vh 2vh 4vh;
+    padding:1vh;
+    height: 65vh;
+}
+.task-item{
+    /* background-color: rgb(99, 98, 98); */
+    box-shadow: 1px 1px 2px rgb(102, 102, 102);
+    border : 1px solid black;
+    justify-content: space-between;
+    width:94% ;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 2vh;
+    padding: 1vh;
+}
+.task-item p{
+    width:80%;
+  font-size: 3vh;
+}
+#iscompleted{
+    margin: 1vh;
+    width: 4vh;
+    height: 4vh;
+}
+.completed-tasks{
+    margin-left: 2.5vw;
+    background-color: rgb(107, 109, 107);
+    font-size: 3vh;
+    padding: 1vh;
+    box-shadow: 1vh 1vh 1vh rgb(65, 64, 64);
+    width:fit-content;
+}
+.showdate2{
+    text-align: right;
+    align-items: center;
+    font-size: 17px;
+    padding: 0.5vh;
+    height:1vh;
+    margin: 0.5vh 1vh 1vh 1vh ;
+}
